@@ -2,4 +2,5 @@
 
 Languages:
 
-- TypeScript
+- [ ] Java
+- [x] TypeScript
