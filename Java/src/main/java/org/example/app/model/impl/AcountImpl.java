@@ -1,4 +1,7 @@
-package org.example.app.model;
+package org.example.app.model.impl;
+
+import org.example.app.model.Account;
+import org.example.app.model.AccountType;
 
 public class AcountImpl extends AbstractEntity implements Account {
   private double balance;

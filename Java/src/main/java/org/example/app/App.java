@@ -6,8 +6,8 @@ import static org.example.app.model.AccountType.SAVINGS;
 import java.util.NoSuchElementException;
 
 import org.example.app.model.Bank;
-import org.example.app.model.BankImpl;
 import org.example.app.model.Customer;
+import org.example.app.model.impl.BankImpl;
 
 public class App {
   public static void main(String[] args) {

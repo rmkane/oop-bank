@@ -1,4 +1,6 @@
-package org.example.app.model;
+package org.example.app.model.impl;
+
+import org.example.app.model.Entity;
 
 public abstract class AbstractEntity implements Entity {
   private String id;

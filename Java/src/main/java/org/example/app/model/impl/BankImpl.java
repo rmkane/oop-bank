@@ -1,10 +1,15 @@
-package org.example.app.model;
+package org.example.app.model.impl;
 
 import java.text.NumberFormat;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.NoSuchElementException;
 import java.util.Optional;
+
+import org.example.app.model.Account;
+import org.example.app.model.AccountType;
+import org.example.app.model.Bank;
+import org.example.app.model.Customer;
 
 public class BankImpl extends AbstractEntity implements Bank {
   private String name;

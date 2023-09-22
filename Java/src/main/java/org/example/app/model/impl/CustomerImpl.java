@@ -1,8 +1,11 @@
-package org.example.app.model;
+package org.example.app.model.impl;
 
 import java.text.NumberFormat;
 import java.util.ArrayList;
 import java.util.List;
+
+import org.example.app.model.Account;
+import org.example.app.model.Customer;
 
 public class CustomerImpl extends AbstractEntity implements Customer {
   private String name;
